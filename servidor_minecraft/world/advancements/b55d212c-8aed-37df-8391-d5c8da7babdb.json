@@ -1,0 +1,1123 @@
+{
+  "jujutsucraft:jujutsu_craft_skills": {
+    "criteria": {
+      "jujutsu_craft_skills_0": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_divine_dog_totality": {
+    "criteria": {
+      "skill_divine_dog_totality_0": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_advancements": {
+    "criteria": {
+      "battle_advancements_0": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "jjkf:jjkf": {
+    "criteria": {
+      "jjkf_0": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_merged_beast_agito": {
+    "criteria": {
+      "skill_merged_beast_agito_0": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:start_jujutsu_craft": {
+    "criteria": {
+      "start_jujutsu_craft_0": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2026-01-30 18:39:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2026-01-30 19:08:43 +0000",
+      "minecraft:birch_forest": "2026-01-30 18:59:53 +0000",
+      "minecraft:windswept_hills": "2026-01-30 19:17:20 +0000",
+      "minecraft:savanna_plateau": "2026-01-30 20:44:04 +0000",
+      "minecraft:beach": "2026-01-30 18:45:07 +0000",
+      "minecraft:river": "2026-01-30 18:41:43 +0000",
+      "minecraft:lukewarm_ocean": "2026-01-30 19:40:11 +0000",
+      "minecraft:stony_shore": "2026-01-30 19:42:39 +0000",
+      "minecraft:swamp": "2026-01-30 19:12:49 +0000",
+      "minecraft:forest": "2026-01-30 18:39:01 +0000",
+      "minecraft:ocean": "2026-01-30 18:47:28 +0000",
+      "minecraft:windswept_savanna": "2026-01-30 19:07:58 +0000",
+      "minecraft:flower_forest": "2026-01-30 21:04:06 +0000",
+      "minecraft:old_growth_birch_forest": "2026-01-30 19:01:06 +0000",
+      "minecraft:meadow": "2026-01-30 20:58:24 +0000",
+      "minecraft:savanna": "2026-01-30 19:19:56 +0000",
+      "minecraft:plains": "2026-01-30 19:07:32 +0000"
+    },
+    "done": false
+  },
+  "jujutsucraft:advancement_insect": {
+    "criteria": {
+      "advancement_insect_0": "2026-01-30 18:39:16 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_geto": {
+    "criteria": {
+      "skill_geto_0": "2026-01-30 18:39:35 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_4": {
+    "criteria": {
+      "fame_4_0": "2026-01-30 18:40:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 18:41:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-01-30 18:42:32 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_3": {
+    "criteria": {
+      "fame_3_0": "2026-01-30 18:42:32 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:reverse_cursed_technique_1": {
+    "criteria": {
+      "reverse_cursed_technique_1_0": "2026-01-30 18:42:35 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_falling_blossom_emotion": {
+    "criteria": {
+      "mastery_falling_blossom_emotion_0": "2026-01-30 18:43:08 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_simple_domain": {
+    "criteria": {
+      "mastery_simple_domain_0": "2026-01-30 18:45:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2026-01-30 18:57:00 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_4": {
+    "criteria": {
+      "sorcerer_grade_4_0": "2026-01-30 19:02:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2026-01-30 19:12:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2026-01-30 19:12:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2026-01-30 19:12:17 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:reverse_cursed_technique_2": {
+    "criteria": {
+      "reverse_cursed_technique_2_0": "2026-01-30 19:14:16 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_2": {
+    "criteria": {
+      "fame_2_0": "2026-01-30 19:15:52 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_3": {
+    "criteria": {
+      "sorcerer_grade_3_0": "2026-01-30 19:21:52 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_toshihisa_negi": {
+    "criteria": {
+      "battle_toshihisa_negi_0": "2026-01-30 19:21:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-01-30 19:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2026-01-30 19:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2026-01-30 19:32:03 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_jiro_awasaka": {
+    "criteria": {
+      "battle_jiro_awasaka_0": "2026-01-30 19:32:54 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_1": {
+    "criteria": {
+      "fame_1_0": "2026-01-30 19:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-01-30 19:44:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-01-30 19:44:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-01-30 19:44:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-01-30 19:44:19 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:update": {
+    "criteria": {
+      "update_0": "2026-01-30 21:45:35 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_2_semi": {
+    "criteria": {
+      "sorcerer_grade_2_semi_0": "2026-01-30 19:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_flame_laser": {
+    "criteria": {
+      "skill_flame_laser_0": "2026-01-30 21:22:56 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:advancement_six_eyes": {
+    "criteria": {
+      "advancement_six_eyes_0": "2026-01-30 21:39:56 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_lava_waves": {
+    "criteria": {
+      "skill_lava_waves_0": "2026-01-30 21:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_larue": {
+    "criteria": {
+      "battle_larue_0": "2026-01-30 21:28:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_9": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_9_0": "2026-01-30 21:28:22 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_7": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_7_0": "2026-01-30 21:12:15 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_6": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_6_0": "2026-01-30 21:27:22 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_juzo_kumiya": {
+    "criteria": {
+      "battle_juzo_kumiya_0": "2026-01-30 21:14:58 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_dismantle": {
+    "criteria": {
+      "skill_dismantle_0": "2026-01-30 21:26:47 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_3": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_3_0": "2026-01-30 21:09:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_kento_nanami": {
+    "criteria": {
+      "battle_kento_nanami_0": "2026-01-30 20:37:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-01-30 20:49:09 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/cherry_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_1": {
+    "criteria": {
+      "sorcerer_grade_1_0": "2026-01-30 21:29:18 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_2": {
+    "criteria": {
+      "sorcerer_grade_2_0": "2026-01-30 20:21:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/oak_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/dark_oak_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2026-01-30 20:25:59 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/birch_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_megumi_fushiguro": {
+    "criteria": {
+      "battle_megumi_fushiguro_0": "2026-01-30 21:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-01-30 20:49:09 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_panda": {
+    "criteria": {
+      "battle_panda_0": "2026-01-30 20:50:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_special": {
+    "criteria": {
+      "sorcerer_grade_special_0": "2026-01-30 21:29:19 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_yuji_itadori": {
+    "criteria": {
+      "battle_yuji_itadori_0": "2026-01-30 20:49:28 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_sukuna": {
+    "criteria": {
+      "skill_sukuna_0": "2026-01-30 21:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-01-30 20:49:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2026-01-30 20:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/spruce_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-01-30 20:49:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_disaster_flames": {
+    "criteria": {
+      "skill_disaster_flames_0": "2026-01-30 21:22:56 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_domain_amplification": {
+    "criteria": {
+      "mastery_domain_amplification_0": "2026-01-30 20:24:09 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_jogo": {
+    "criteria": {
+      "skill_jogo_0": "2026-01-30 21:22:56 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_domain_expansion": {
+    "criteria": {
+      "mastery_domain_expansion_0": "2026-01-30 20:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-01-30 20:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_1": {
+    "criteria": {
+      "sukuna_finger_1_0": "2026-01-30 21:39:30 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_2": {
+    "criteria": {
+      "sukuna_finger_2_0": "2026-01-30 21:39:31 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_3": {
+    "criteria": {
+      "sukuna_finger_3_0": "2026-01-30 21:39:32 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_4": {
+    "criteria": {
+      "sukuna_finger_4_0": "2026-01-30 21:39:33 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_5": {
+    "criteria": {
+      "sukuna_finger_5_0": "2026-01-30 21:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_6": {
+    "criteria": {
+      "sukuna_finger_6_0": "2026-01-30 21:39:35 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_7": {
+    "criteria": {
+      "sukuna_finger_7_0": "2026-01-30 21:39:36 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_8": {
+    "criteria": {
+      "sukuna_finger_8_0": "2026-01-30 21:39:37 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_9": {
+    "criteria": {
+      "sukuna_finger_9_0": "2026-01-30 21:39:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/acacia_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_copy": {
+    "criteria": {
+      "skill_copy_0": "2026-01-30 21:12:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:mastery_open_barrier_type_domain": {
+    "criteria": {
+      "mastery_open_barrier_type_domain_0": "2026-01-30 21:27:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2026-01-30 20:25:59 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_cleave": {
+    "criteria": {
+      "skill_cleave_0": "2026-01-30 21:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/jungle_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2026-01-30 20:25:59 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_cursed_spirit_grade_special_16": {
+    "criteria": {
+      "battle_cursed_spirit_grade_special_16_0": "2026-01-30 21:15:14 +0000"
+    },
+    "done": true
+  },
+  "jjkf:reverse_cursed_technique_lvl_3": {
+    "criteria": {
+      "reverse_cursed_technique_lvl_3_0": "2026-01-30 21:29:19 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_jogo": {
+    "criteria": {
+      "battle_jogo_0": "2026-01-30 20:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:observation_of_the_soul": {
+    "criteria": {
+      "observation_of_the_soul_0": "2026-01-30 21:39:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/warped_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2026-01-30 20:49:09 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/crimson_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-01-30 20:43:06 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:battle_yuji_itadori_shibuya": {
+    "criteria": {
+      "battle_yuji_itadori_shibuya_0": "2026-01-30 21:28:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2026-01-30 20:49:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_apple": "2026-01-30 20:47:59 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sorcerer_grade_1_semi": {
+    "criteria": {
+      "sorcerer_grade_1_semi_0": "2026-01-30 21:09:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-01-30 20:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2026-01-30 20:49:09 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:fame_special": {
+    "criteria": {
+      "fame_special_0": "2026-01-30 20:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-01-30 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_rika_control": {
+    "criteria": {
+      "skill_rika_control_0": "2026-01-30 21:12:46 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:anti_open_barrier_type_domain": {
+    "criteria": {
+      "anti_open_barrier_type_domain_0": "2026-01-30 21:27:53 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_20": {
+    "criteria": {
+      "sukuna_finger_20_0": "2026-01-30 21:39:48 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_10": {
+    "criteria": {
+      "sukuna_finger_10_0": "2026-01-30 21:39:39 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_11": {
+    "criteria": {
+      "sukuna_finger_11_0": "2026-01-30 21:39:40 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_12": {
+    "criteria": {
+      "sukuna_finger_12_0": "2026-01-30 21:39:41 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_13": {
+    "criteria": {
+      "sukuna_finger_13_0": "2026-01-30 21:39:42 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_14": {
+    "criteria": {
+      "sukuna_finger_14_0": "2026-01-30 21:39:42 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_15": {
+    "criteria": {
+      "sukuna_finger_15_0": "2026-01-30 21:39:43 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_16": {
+    "criteria": {
+      "sukuna_finger_16_0": "2026-01-30 21:39:44 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_17": {
+    "criteria": {
+      "sukuna_finger_17_0": "2026-01-30 21:39:45 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_18": {
+    "criteria": {
+      "sukuna_finger_18_0": "2026-01-30 21:39:46 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:sukuna_finger_19": {
+    "criteria": {
+      "sukuna_finger_19_0": "2026-01-30 21:39:47 +0000"
+    },
+    "done": true
+  },
+  "jujutsucraft:skill_open": {
+    "criteria": {
+      "skill_open_0": "2026-01-30 21:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-30 20:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2026-01-30 20:44:20 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

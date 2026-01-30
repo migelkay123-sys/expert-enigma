@@ -1,0 +1,1408 @@
+[30Jan2026 18:37:56.946] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[30Jan2026 18:37:56.950] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[30Jan2026 18:37:59.797] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Jan2026 18:37:59.962] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/expert-enigma/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Jan2026 18:38:00.177] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/expert-enigma/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[30Jan2026 18:38:00.486] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/expert-enigma/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[30Jan2026 18:38:00.487] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/expert-enigma/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[30Jan2026 18:38:00.489] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/expert-enigma/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[30Jan2026 18:38:00.490] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/expert-enigma/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[30Jan2026 18:38:00.901] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[30Jan2026 18:38:00.902] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[30Jan2026 18:38:03.350] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Jan2026 18:38:03.490] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[30Jan2026 18:38:03.492] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[30Jan2026 18:38:03.494] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[30Jan2026 18:38:03.823] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 83 options available, 0 override(s) found
+[30Jan2026 18:38:03.824] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[30Jan2026 18:38:03.839] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[30Jan2026 18:38:03.968] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[30Jan2026 18:38:03.971] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[30Jan2026 18:38:03.979] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 103 options available, 0 override(s) found
+[30Jan2026 18:38:04.070] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[30Jan2026 18:38:04.135] [main/INFO] [Puzzles Lib/]: Loading 58 mods:
+	- advancementplaques 1.5.1
+	- backpacked 2.2.5
+	- betteradvancements 0.3.2.161
+	- bettercombat 1.8.5+1.20.1
+	- bookshelf 20.2.13
+	- canary 0.3.3
+	- cloth_config 11.1.118
+	- clumps 12.0.0.4
+	- collective 7.81
+	- comforts 6.4.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- controlling 12.0.2
+	- cosmeticarmorreworked 1.20.1-v1a
+	- easymagic 8.0.1
+	- embeddium 0.3.24+mc1.20.1
+		\-- rubidium 0.7.1
+	- embeddiumplus 1.2.13
+	- enchdesc 17.0.14
+	- entityculling 1.6.6
+	- fastload 3.4.0
+	- ferritecore 6.0.1
+	- forge 47.4.10
+	- fpsreducer 1.20-2.5
+	- framework 0.7.6
+	- geckolib 4.4.7
+	- iceberg 1.1.21
+	- immediatelyfast 1.2.18+1.20.4
+		\-- mixinextras 0.3.6
+	- inventoryhud 3.4.26
+	- inventorysorter 23.0.1
+	- jade 11.9.4+forge
+	- jei 15.12.2.48
+	- jeresources 1.4.0.247
+	- jjkf 19.0
+	- journeymap 5.10.1
+	- jujutsu_combat 1.0.0
+	- jujutsucraft 40
+	- lostcities 1.20-7.3.2
+	- minecraft 1.20.1
+	- modernfix 5.18.6+mc1.20.1
+	- mr_daycounter 1
+	- neat 1.20-35-FORGE
+	- notenoughanimations 1.7.4
+	- parcool 1.20.1-3.1.0.6-R
+	- playeranimator 1.0.2-rc1+1.20
+	- presencefootsteps 1.20.1-1.9.1-beta.1
+	- prism 1.0.5
+	- puzzleslib 8.1.21
+		\-- puzzlesaccessapi 8.0.7
+	- repurposed_structures 7.1.15+1.20.1-forge
+	- searchables 1.0.3
+	- shouldersurfing 1.20.1-2.8.1
+	- skinrestorer 2.5.0+1.20-forge
+	- sound_physics_remastered 1.20.1-1.4.5
+	- spark 1.10.53
+	- starlight 1.1.2+forge.1cda73c
+	- treeharvester 9.0
+	- vanillaplustools 1.20-1.0
+	- weaponmaster_ydm 4.2.3
+[30Jan2026 18:38:06.029] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[30Jan2026 18:38:06.646] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (16.20 s after launch)
+[30Jan2026 18:38:06.784] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[30Jan2026 18:38:06.785] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[30Jan2026 18:38:06.913] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[30Jan2026 18:38:06.914] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[30Jan2026 18:38:06.914] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[30Jan2026 18:38:06.914] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[30Jan2026 18:38:08.457] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1807 milliseconds
+[30Jan2026 18:38:11.541] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[30Jan2026 18:38:11.598] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[30Jan2026 18:38:11.598] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[30Jan2026 18:38:11.599] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[30Jan2026 18:38:11.599] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[30Jan2026 18:38:11.599] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[30Jan2026 18:38:11.599] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[30Jan2026 18:38:11.599] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[30Jan2026 18:38:11.666] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[30Jan2026 18:38:11.667] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[30Jan2026 18:38:11.716] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[30Jan2026 18:38:11.716] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.24+mc1.20.1.jar%23168!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:103) ~[embeddium-0.3.24+mc1.20.1.jar%23168!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:43) ~[embeddium-0.3.24+mc1.20.1.jar%23168!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.10.jar%23211!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.10.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 18:38:11.879] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.81.
+[30Jan2026 18:38:12.037] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[30Jan2026 18:38:14.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[30Jan2026 18:38:14.753] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[30Jan2026 18:38:14.783] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[30Jan2026 18:38:14.833] [main/INFO] [journeymap/]: Initializing Packet Registries
+[30Jan2026 18:38:15.045] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[30Jan2026 18:38:15.045] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[30Jan2026 18:38:15.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[30Jan2026 18:38:15.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[30Jan2026 18:38:15.334] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[30Jan2026 18:38:15.355] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[30Jan2026 18:38:15.358] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[30Jan2026 18:38:15.360] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.teamderpy.shouldersurfing.compatibility.ShoulderSurfingJadePlugin
+[30Jan2026 18:38:15.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[30Jan2026 18:38:15.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[30Jan2026 18:38:15.480] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[30Jan2026 18:38:15.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[30Jan2026 18:38:15.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[30Jan2026 18:38:15.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[30Jan2026 18:38:15.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[30Jan2026 18:38:15.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[30Jan2026 18:38:15.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[30Jan2026 18:38:15.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[30Jan2026 18:38:15.818] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[30Jan2026 18:38:15.818] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[30Jan2026 18:38:15.928] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Jan2026 18:38:16.052] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[30Jan2026 18:38:16.068] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/expert-enigma/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/assets/.mcassetsroot' uses unexpected schema
+[30Jan2026 18:38:16.068] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/expert-enigma/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/data/.mcassetsroot' uses unexpected schema
+[30Jan2026 18:38:16.438] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.5 Target: 1.20.1-1.5.1
+[30Jan2026 18:38:16.440] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Jan2026 18:38:16.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[30Jan2026 18:38:16.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[30Jan2026 18:38:16.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: OUTDATED Current: 1.5.1 Target: 1.6.9
+[30Jan2026 18:38:16.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[30Jan2026 18:38:16.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA_OUTDATED Current: 17.0.14 Target: 17.1.20
+[30Jan2026 18:38:16.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[30Jan2026 18:38:16.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: OUTDATED Current: 1.1.21 Target: 1.1.25
+[30Jan2026 18:38:16.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_daycounter] Starting version check at https://api.modrinth.com/updates/RWVRgj8Z/forge_updates.json
+[30Jan2026 18:38:16.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_daycounter] Found status: OUTDATED Current: 1 Target: 1.1mod
+[30Jan2026 18:38:16.829] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[30Jan2026 18:38:16.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[30Jan2026 18:38:16.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[30Jan2026 18:38:17.041] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.10.jar%23210!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.10.jar%23210!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Jan2026 18:38:17.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[30Jan2026 18:38:17.094] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.10.jar%23210!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.10.jar%23210!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Jan2026 18:38:17.095] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[30Jan2026 18:38:17.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[30Jan2026 18:38:17.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[30Jan2026 18:38:17.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.21 Target: 8.1.33
+[30Jan2026 18:38:17.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[30Jan2026 18:38:17.143] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.10.jar%23210!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.10.jar%23210!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Jan2026 18:38:17.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
+[30Jan2026 18:38:17.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
+[30Jan2026 18:38:18.488] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23214!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23214!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 18:38:18.575] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:patchouli_parcool_guide: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+[30Jan2026 18:38:18.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30Jan2026 18:38:18.711] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1552 advancements
+[30Jan2026 18:38:18.848] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Jan2026 18:38:18.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Jan2026 18:38:18.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Jan2026 18:38:18.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Jan2026 18:38:19.005] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Jan2026 18:38:19.028] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Jan2026 18:38:19.102] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Jan2026 18:38:19.102] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Jan2026 18:38:19.102] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Jan2026 18:38:19.102] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Jan2026 18:38:19.119] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/inventorysorter-server.toml is not correct. Correcting
+[30Jan2026 18:38:19.120] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklists was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.120] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklists.containerBlacklist was corrected from null to its default, []. 
+[30Jan2026 18:38:19.121] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklists.slotBlacklist was corrected from null to its default, []. 
+[30Jan2026 18:38:19.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
+[30Jan2026 18:38:19.123] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.123] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[30Jan2026 18:38:19.123] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[30Jan2026 18:38:19.124] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Jan2026 18:38:19.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[30Jan2026 18:38:19.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.126] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[30Jan2026 18:38:19.127] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[30Jan2026 18:38:19.127] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[30Jan2026 18:38:19.167] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[30Jan2026 18:38:19.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[30Jan2026 18:38:19.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[30Jan2026 18:38:19.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[30Jan2026 18:38:19.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[30Jan2026 18:38:19.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[30Jan2026 18:38:19.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[30Jan2026 18:38:19.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[30Jan2026 18:38:19.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[30Jan2026 18:38:19.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[30Jan2026 18:38:19.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/lostcities-server.toml is not correct. Correcting
+[30Jan2026 18:38:19.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.specialBedBlock was corrected from null to its default, minecraft:diamond_block. 
+[30Jan2026 18:38:19.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.selectedProfile was corrected from null to its default, <CHECK>. 
+[30Jan2026 18:38:19.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.selectedCustomJson was corrected from null to its default, . 
+[30Jan2026 18:38:19.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.todoQueueSize was corrected from null to its default, 20. 
+[30Jan2026 18:38:19.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.forceSaplingGrowth was corrected from null to its default, true. 
+[30Jan2026 18:38:19.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidStructures was corrected from null to its default, [minecraft:mansion, minecraft:jungle_pyramid, minecraft:desert_pyramid, minecraft:igloo, minecraft:swamp_huts, minecraft:pillager_outpost]. 
+[30Jan2026 18:38:19.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidStructuresAdjacent was corrected from null to its default, true. 
+[30Jan2026 18:38:19.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidVillagesAdjacent was corrected from null to its default, true. 
+[30Jan2026 18:38:19.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidFlattening was corrected from null to its default, true. 
+[30Jan2026 18:38:19.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/parcool-server.toml is not correct. Correcting
+[30Jan2026 18:38:19.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.limitation_imposed was corrected from null to its default, false. 
+[30Jan2026 18:38:19.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_BreakfallReady was corrected from null to its default, true. 
+[30Jan2026 18:38:19.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_CatLeap was corrected from null to its default, true. 
+[30Jan2026 18:38:19.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_ClimbPoles was corrected from null to its default, true. 
+[30Jan2026 18:38:19.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_ClimbUp was corrected from null to its default, true. 
+[30Jan2026 18:38:19.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_ClingToCliff was corrected from null to its default, true. 
+[30Jan2026 18:38:19.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Crawl was corrected from null to its default, true. 
+[30Jan2026 18:38:19.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Dive was corrected from null to its default, true. 
+[30Jan2026 18:38:19.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Dodge was corrected from null to its default, true. 
+[30Jan2026 18:38:19.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_FastRun was corrected from null to its default, true. 
+[30Jan2026 18:38:19.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Flipping was corrected from null to its default, true. 
+[30Jan2026 18:38:19.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_HangDown was corrected from null to its default, true. 
+[30Jan2026 18:38:19.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_HorizontalWallRun was corrected from null to its default, true. 
+[30Jan2026 18:38:19.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_JumpFromBar was corrected from null to its default, true. 
+[30Jan2026 18:38:19.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_QuickTurn was corrected from null to its default, true. 
+[30Jan2026 18:38:19.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Roll was corrected from null to its default, true. 
+[30Jan2026 18:38:19.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_SkyDive was corrected from null to its default, true. 
+[30Jan2026 18:38:19.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Slide was corrected from null to its default, true. 
+[30Jan2026 18:38:19.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Tap was corrected from null to its default, true. 
+[30Jan2026 18:38:19.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_Vault was corrected from null to its default, true. 
+[30Jan2026 18:38:19.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_VerticalWallRun was corrected from null to its default, true. 
+[30Jan2026 18:38:19.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_WallJump was corrected from null to its default, true. 
+[30Jan2026 18:38:19.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Action Permissions.permit_WallSlide was corrected from null to its default, true. 
+[30Jan2026 18:38:19.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Jan2026 18:38:19.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_BreakfallReady was corrected from null to its default, 0. 
+[30Jan2026 18:38:19.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_CatLeap was corrected from null to its default, 150. 
+[30Jan2026 18:38:19.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_ClimbPoles was corrected from null to its default, 0. 
+[30Jan2026 18:38:19.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_ClimbUp was corrected from null to its default, 150. 
+[30Jan2026 18:38:19.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_ClingToCliff was corrected from null to its default, 2. 
+[30Jan2026 18:38:19.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Crawl was corrected from null to its default, 0. 
+[30Jan2026 18:38:19.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Dive was corrected from null to its default, 0. 
+[30Jan2026 18:38:19.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Dodge was corrected from null to its default, 80. 
+[30Jan2026 18:38:19.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_FastRun was corrected from null to its default, 2. 
+[30Jan2026 18:38:19.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Flipping was corrected from null to its default, 80. 
+[30Jan2026 18:38:19.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_HangDown was corrected from null to its default, 3. 
+[30Jan2026 18:38:19.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_HorizontalWallRun was corrected from null to its default, 2. 
+[30Jan2026 18:38:19.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_JumpFromBar was corrected from null to its default, 100. 
+[30Jan2026 18:38:19.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_QuickTurn was corrected from null to its default, 0. 
+[30Jan2026 18:38:19.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Roll was corrected from null to its default, 100. 
+[30Jan2026 18:38:19.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_SkyDive was corrected from null to its default, 0. 
+[30Jan2026 18:38:19.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Slide was corrected from null to its default, 0. 
+[30Jan2026 18:38:19.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Tap was corrected from null to its default, 100. 
+[30Jan2026 18:38:19.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_Vault was corrected from null to its default, 50. 
+[30Jan2026 18:38:19.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_VerticalWallRun was corrected from null to its default, 150. 
+[30Jan2026 18:38:19.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_WallJump was corrected from null to its default, 120. 
+[30Jan2026 18:38:19.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.stamina_consumption_of_WallSlide was corrected from null to its default, 2. 
+[30Jan2026 18:38:19.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.allow_infinite_stamina was corrected from null to its default, true. 
+[30Jan2026 18:38:19.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.max_stamina_limit was corrected from null to its default, 2147483647. 
+[30Jan2026 18:38:19.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Limitations.Stamina.Least Consumption.max_stamina_recovery_limit was corrected from null to its default, 2147483647. 
+[30Jan2026 18:38:19.351] [Server thread/INFO] [spark/]: Starting background profiler...
+[30Jan2026 18:38:20.390] [Server thread/INFO] [Framework/]: Loading server configs...
+[30Jan2026 18:38:20.405] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Jan2026 18:38:20.965] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[30Jan2026 18:38:21.148] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[30Jan2026 18:38:25.305] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--10 absolute]
+[30Jan2026 18:38:25.948] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Sorcerers'
+[30Jan2026 18:38:25.949] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curses'
+[30Jan2026 18:38:25.949] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curse_User'
+[30Jan2026 18:38:25.963] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Sorcerers'
+[30Jan2026 18:38:25.964] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curses'
+[30Jan2026 18:38:25.964] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curse_User'
+[30Jan2026 18:38:25.988] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Sorcerers'
+[30Jan2026 18:38:25.989] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curses'
+[30Jan2026 18:38:25.989] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curse_User'
+[30Jan2026 18:38:26.001] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Sorcerers'
+[30Jan2026 18:38:26.002] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curses'
+[30Jan2026 18:38:26.002] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curse_User'
+[30Jan2026 18:38:28.322] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Sorcerers'
+[30Jan2026 18:38:28.323] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curses'
+[30Jan2026 18:38:28.326] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curse_User'
+[30Jan2026 18:38:29.866] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Sorcerers'
+[30Jan2026 18:38:29.867] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curses'
+[30Jan2026 18:38:29.869] [Server thread/WARN] [net.minecraft.world.scores.Scoreboard/]: Requested creation of existing team 'Curse_User'
+[30Jan2026 18:38:29.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Jan2026 18:38:44.031] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1606665 ms
+[30Jan2026 18:38:44.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.916s)! For help, type "help"
+[30Jan2026 18:38:44.068] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Jan2026 18:38:44.146] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 42652 bytes (in 5 string chunks with the size of 10000)
+[30Jan2026 18:38:44.150] [Server thread/WARN] [ModernFix/]: Dedicated server took 53.703 seconds to load
+[30Jan2026 18:39:00.062] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.193.42.188:56615] logged in with entity id 97 at (6.5, 77.0, 32.5)
+[30Jan2026 18:39:00.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[30Jan2026 18:39:00.251] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[30Jan2026 18:39:00.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Start Jujutsu Craft]
+[30Jan2026 18:39:16.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Insect]
+[30Jan2026 18:39:35.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Cursed Spirit Manipulation]
+[30Jan2026 18:39:37.478] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2127ms or 42 ticks behind
+[30Jan2026 18:40:37.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -4-]
+[30Jan2026 18:41:44.315] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/551, l='ServerLevel[world]', x=208.50, y=73.00, z=99.50] died, message: 'Jujutsu Sorcerer suffocated in a wall'
+[30Jan2026 18:41:46.720] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/660, l='ServerLevel[world]', x=229.50, y=73.00, z=121.50] died, message: 'Jujutsu Sorcerer suffocated in a wall'
+[30Jan2026 18:42:01.518] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: too many requests
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 18:42:01.540] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:48751] logged in with entity id 1303 at (6.5, 72.0, 34.5)
+[30Jan2026 18:42:01.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 18:42:01.585] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 18:42:01.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Start Jujutsu Craft]
+[30Jan2026 18:42:32.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -3-]
+[30Jan2026 18:42:35.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Reverse Cursed Technique Lv1]
+[30Jan2026 18:43:08.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Mastery Falling Blossom Emotion]
+[30Jan2026 18:43:50.161] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/145, l='ServerLevel[world]', x=168.23, y=66.00, z=18.98] died, message: 'Butcher died'
+[30Jan2026 18:43:50.163] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/139, l='ServerLevel[world]', x=169.52, y=65.00, z=17.90] died, message: 'Fisherman died'
+[30Jan2026 18:43:50.164] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/66, l='ServerLevel[world]', x=168.45, y=65.00, z=17.79] died, message: 'Unemployed died'
+[30Jan2026 18:43:51.267] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/165, l='ServerLevel[world]', x=169.43, y=64.00, z=20.57] died, message: 'Butcher died'
+[30Jan2026 18:43:52.418] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/308, l='ServerLevel[world]', x=167.51, y=66.00, z=19.26] died, message: 'Fisherman died'
+[30Jan2026 18:44:06.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:44:12.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gamerule keepInventory is now set to: true]
+[30Jan2026 18:44:29.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Blood Manipulation]
+[30Jan2026 18:44:37.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:45:25.267] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/2481, l='ServerLevel[world]', x=279.48, y=64.00, z=-8.98] died, message: 'Farmer died'
+[30Jan2026 18:45:26.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Mastery Simple Domain]
+[30Jan2026 18:45:43.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:45:45.623] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=71, z=37}
+[30Jan2026 18:46:11.490] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=73, z=29}
+[30Jan2026 18:46:20.378] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3062, l='ServerLevel[world]', x=251.73, y=70.00, z=49.50] died, message: 'Farmer died'
+[30Jan2026 18:47:31.876] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/3073, l='ServerLevel[world]', x=293.25, y=66.00, z=10.67] died, message: 'Shepherd was slain by Cursed Spirit Grade 3'
+[30Jan2026 18:47:56.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Insect]
+[30Jan2026 18:48:22.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:49:51.762] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/4506, l='ServerLevel[world]', x=283.28, y=69.00, z=118.50] died, message: 'Unemployed died'
+[30Jan2026 18:49:59.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:50:10.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -4-]
+[30Jan2026 18:50:10.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -3-]
+[30Jan2026 18:50:22.670] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/661, l='ServerLevel[world]', x=195.51, y=64.77, z=152.53] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 18:50:39.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:50:54.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:51:01.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to king_by2002]
+[30Jan2026 18:51:17.462] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/4363, l='ServerLevel[world]', x=271.51, y=66.00, z=56.42] died, message: 'Fisherman died'
+[30Jan2026 18:51:19.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 18:51:32.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported king_by2002 to iJFC]
+[30Jan2026 18:51:46.829] [ForkJoinPool.commonPool-worker-5/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:uekee340'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 18:51:46.886] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: uekee340[/127.33.25.10:39475] logged in with entity id 6857 at (6.5, 71.0, 42.5)
+[30Jan2026 18:51:46.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 joined the game
+[30Jan2026 18:51:46.944] [Server thread/INFO] [Jade/]: Syncing config to uekee340 (0bc62d06-0901-38a9-b1d6-aefe5bf603a6)
+[30Jan2026 18:51:46.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Start Jujutsu Craft]
+[30Jan2026 18:51:59.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:52:02.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 18:52:27.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Projection Sorcery]
+[30Jan2026 18:52:30.109] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=3, y=70, z=46}
+[30Jan2026 18:52:30.769] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=3, y=70, z=45}
+[30Jan2026 18:52:31.137] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=3, y=70, z=45}
+[30Jan2026 18:52:31.849] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=5, y=70, z=44}
+[30Jan2026 18:52:32.060] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=6, y=69, z=46}
+[30Jan2026 18:52:32.328] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=6, y=69, z=46}
+[30Jan2026 18:52:32.523] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=7, y=69, z=47}
+[30Jan2026 18:52:32.720] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=7, y=69, z=47}
+[30Jan2026 18:52:33.224] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=68, z=49} BlockPos{x=7, y=69, z=46}
+[30Jan2026 18:52:33.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Reverse Cursed Technique Lv1]
+[30Jan2026 18:52:39.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -4-]
+[30Jan2026 18:52:39.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -3-]
+[30Jan2026 18:52:47.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Insect]
+[30Jan2026 18:53:00.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 was killed by uekee340 using [Attack]
+[30Jan2026 18:53:11.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 18:54:16.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 18:55:09.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=2, y=71, z=34}
+[30Jan2026 18:55:09.744] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=2, y=71, z=34}
+[30Jan2026 18:55:10.249] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=2, y=71, z=35}
+[30Jan2026 18:55:10.476] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=71, z=36}
+[30Jan2026 18:55:10.676] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=71, z=36}
+[30Jan2026 18:55:19.130] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-7, y=71, z=32}
+[30Jan2026 18:55:19.377] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-7, y=71, z=32}
+[30Jan2026 18:55:20.277] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-6, y=71, z=33}
+[30Jan2026 18:55:20.340] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-5, y=71, z=33}
+[30Jan2026 18:55:20.584] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-4, y=71, z=32}
+[30Jan2026 18:55:20.714] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-4, y=71, z=33}
+[30Jan2026 18:55:20.773] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-3, y=71, z=33}
+[30Jan2026 18:55:20.985] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-4, y=71, z=33}
+[30Jan2026 18:55:21.131] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-4, y=71, z=33}
+[30Jan2026 18:55:21.216] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-5, y=71, z=33}
+[30Jan2026 18:55:49.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 18:56:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 18:56:13.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 18:57:08.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 18:59:17.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:00:16.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 was kicked for floating too long!
+[30Jan2026 19:00:16.311] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Flying is not enabled on this server
+[30Jan2026 19:00:16.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 19:00:16.361] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[30Jan2026 19:00:33.611] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Disconnected
+[30Jan2026 19:00:33.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
+[30Jan2026 19:00:35.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Reverse Cursed Technique Lv1]
+[30Jan2026 19:00:37.524] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.193.42.188:42671] logged in with entity id 12939 at (27.98837382131764, 64.0, -25.010688603707113)
+[30Jan2026 19:00:37.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[30Jan2026 19:00:37.554] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[30Jan2026 19:00:42.461] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/711, l='ServerLevel[world]', x=130.50, y=65.00, z=58.15] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 19:00:58.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[30Jan2026 19:01:36.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:01:40.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:01:46.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:01:49.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:01:49.168] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/13037, l='ServerLevel[world]', x=240.35, y=65.00, z=-28.38] died, message: 'Farmer died'
+[30Jan2026 19:02:00.260] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/13607, l='ServerLevel[world]', x=199.70, y=64.00, z=-15.10] died, message: 'Fisherman died'
+[30Jan2026 19:02:11.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:02:25.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:02:42.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:02:51.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Grade 4 Sorcerer]
+[30Jan2026 19:02:52.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:03:04.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:03:09.218] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/13658, l='ServerLevel[world]', x=226.50, y=64.00, z=-17.74] died, message: 'Fisherman died'
+[30Jan2026 19:03:24.515] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/13615, l='ServerLevel[world]', x=201.08, y=66.00, z=21.55] died, message: 'Farmer died'
+[30Jan2026 19:03:34.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:03:44.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:04:04.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[30Jan2026 19:04:13.109] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/550, l='ServerLevel[world]', x=182.65, y=64.00, z=10.56] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 19:04:21.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:04:32.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:05:19.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[30Jan2026 19:05:22.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:05:26.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Cursed Technique Lapse: Blue]
+[30Jan2026 19:05:26.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Limitless]
+[30Jan2026 19:08:02.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 19:08:06.126] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [0 above bottom--8 absolute]
+[30Jan2026 19:08:30.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 19:10:31.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:11:09.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:11:43.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:11:48.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:11:52.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:11:56.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:11:59.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:12:43.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:12:47.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:12:49.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:12:52.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:14:16.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Reverse Cursed Technique Lv2]
+[30Jan2026 19:14:16.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:14:23.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:14:34.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:14:38.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:15:03.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:15:06.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:15:12.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:15:13.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Grade 4 Sorcerer]
+[30Jan2026 19:15:17.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:15:21.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:15:38.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -2-]
+[30Jan2026 19:15:42.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:15:52.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -2-]
+[30Jan2026 19:16:42.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:17:07.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:17:10.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:17:20.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died because of Masamichi Yaga
+[30Jan2026 19:19:25.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:19:27.559] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 lost connection: Disconnected
+[30Jan2026 19:19:27.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 left the game
+[30Jan2026 19:19:32.412] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2ef25f56[id=<null>,name=uekee340,properties={},legacy=false] (/127.33.25.10:46721) lost connection: Disconnected
+[30Jan2026 19:19:47.011] [ForkJoinPool.commonPool-worker-9/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:uekee340'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 19:19:47.072] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: uekee340[/127.33.25.10:54027] logged in with entity id 32460 at (-567.3000000119209, 66.0, 534.0427585059496)
+[30Jan2026 19:19:47.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 joined the game
+[30Jan2026 19:19:47.086] [Server thread/INFO] [Jade/]: Syncing config to uekee340 (0bc62d06-0901-38a9-b1d6-aefe5bf603a6)
+[30Jan2026 19:20:15.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:21:10.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Hunger for Luck]
+[30Jan2026 19:21:26.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:21:30.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:21:31.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 19:21:39.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:21:44.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:21:46.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 19:21:52.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Negi]
+[30Jan2026 19:21:52.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Negi]
+[30Jan2026 19:21:52.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Grade 3 Sorcerer]
+[30Jan2026 19:21:58.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:22:14.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:22:17.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:22:26.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:22:34.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:23:09.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:23:44.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:23:44.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Grade 3 Sorcerer]
+[30Jan2026 19:23:50.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:23:55.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:23:59.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:24:07.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:24:10.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:24:36.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:24:43.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:26:12.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:26:26.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:26:36.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:26:39.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:27:05.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Mastery Simple Domain]
+[30Jan2026 19:27:15.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:27:49.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:27:54.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:29:38.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 19:29:41.769] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/43981, l='ServerLevel[world]', x=-1602.73, y=65.30, z=605.30] died, message: 'Nitwit died'
+[30Jan2026 19:29:41.867] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/43987, l='ServerLevel[world]', x=-1602.16, y=68.00, z=600.82] died, message: 'Cleric died'
+[30Jan2026 19:29:42.016] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/43986, l='ServerLevel[world]', x=-1599.71, y=67.00, z=604.55] died, message: 'Unemployed died'
+[30Jan2026 19:29:51.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 19:29:52.318] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/44026, l='ServerLevel[world]', x=-1595.08, y=67.86, z=607.91] died, message: 'Nitwit died'
+[30Jan2026 19:30:31.319] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/44023, l='ServerLevel[world]', x=-1592.39, y=64.79, z=655.43] died, message: 'Cartographer died'
+[30Jan2026 19:30:34.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:31:05.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:31:21.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:31:34.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:31:59.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[30Jan2026 19:32:05.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:32:12.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:32:37.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:32:42.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:32:47.663] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 was kicked for floating too long!
+[30Jan2026 19:32:47.712] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 lost connection: Flying is not enabled on this server
+[30Jan2026 19:32:47.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 left the game
+[30Jan2026 19:32:54.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Inverse]
+[30Jan2026 19:33:02.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:33:13.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:33:16.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 19:33:41.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 19:33:46.513] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@19a1b6c[id=<null>,name=uekee340,properties={},legacy=false] (/127.33.25.10:59069) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: java.io.IOException: Can't serialize unregistered packet
+[30Jan2026 19:34:05.904] [ForkJoinPool.commonPool-worker-11/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:uekee340'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 19:34:05.920] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: uekee340[/127.33.25.10:42451] logged in with entity id 51836 at (-1785.9956136830522, 69.0, 493.895153433058)
+[30Jan2026 19:34:05.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 joined the game
+[30Jan2026 19:34:05.950] [Server thread/INFO] [Jade/]: Syncing config to uekee340 (0bc62d06-0901-38a9-b1d6-aefe5bf603a6)
+[30Jan2026 19:34:52.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:34:55.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:35:07.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:35:11.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:36:17.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:36:21.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:36:58.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Twin]
+[30Jan2026 19:37:12.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:37:15.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:37:58.816] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/55162, l='ServerLevel[world]', x=-1841.25, y=68.00, z=198.85] died, message: 'Unemployed died'
+[30Jan2026 19:38:35.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:38:38.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 was doomed to fall by Ganesha
+[30Jan2026 19:38:46.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:39:05.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:39:08.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:39:19.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:39:22.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:39:30.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:39:38.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:39:43.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 19:39:46.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:40:13.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC was kicked for floating too long!
+[30Jan2026 19:40:13.758] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Flying is not enabled on this server
+[30Jan2026 19:40:13.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
+[30Jan2026 19:40:18.668] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.193.42.188:41625] logged in with entity id 57793 at (-1888.0729075156612, 75.94909989283713, 522.4945141560455)
+[30Jan2026 19:40:18.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[30Jan2026 19:40:18.691] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[30Jan2026 19:42:00.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:42:48.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 19:42:53.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 19:43:03.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of Cursed Spirit Grade 3
+[30Jan2026 19:43:19.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of Cursed Spirit Grade 3
+[30Jan2026 19:43:23.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:43:36.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:43:39.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:43:44.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:43:46.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:44:04.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -1-]
+[30Jan2026 19:44:24.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 19:44:25.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! 21.443106792238268,0.4641593749554431,0.019782294641693454
+[30Jan2026 19:44:29.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 19:44:31.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Semi-Grade 2 Sorcerer]
+[30Jan2026 19:44:51.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:44:53.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 19:45:05.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! 8.455449914551991,2.917136700435762,-11.685419796864954
+[30Jan2026 19:45:05.563] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Disconnected
+[30Jan2026 19:45:05.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
+[30Jan2026 19:47:17.951] [ForkJoinPool.commonPool-worker-15/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 19:47:17.966] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:49781] logged in with entity id 63854 at (-14.060499169949702, 63.785726586914244, -6.969632277674234)
+[30Jan2026 19:47:17.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 19:47:17.989] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 19:47:26.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 was kicked for floating too long!
+[30Jan2026 19:47:26.214] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Flying is not enabled on this server
+[30Jan2026 19:47:26.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 19:47:51.349] [ForkJoinPool.commonPool-worker-15/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 19:47:51.366] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:46593] logged in with entity id 64279 at (-14.060499169949702, 63.785726586914244, -6.969632277674234)
+[30Jan2026 19:47:51.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 19:47:51.384] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 19:48:48.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <uekee340> king_by2002
+[30Jan2026 19:48:55.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported king_by2002 to uekee340]
+[30Jan2026 19:49:48.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died because of uekee340
+[30Jan2026 19:50:01.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported king_by2002 to uekee340]
+[30Jan2026 19:50:10.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:50:11.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported king_by2002 to uekee340]
+[30Jan2026 19:50:18.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported king_by2002 to uekee340]
+[30Jan2026 19:50:34.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 was kicked for floating too long!
+[30Jan2026 19:50:34.863] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Flying is not enabled on this server
+[30Jan2026 19:50:34.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 19:50:44.084] [ForkJoinPool.commonPool-worker-16/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 19:50:44.125] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:50241] logged in with entity id 66500 at (-1880.4145888196192, 64.24918707874468, 235.8813544728798)
+[30Jan2026 19:50:44.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 19:50:44.145] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 19:50:46.565] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/63921, l='ServerLevel[world]', x=-1837.53, y=66.21, z=253.38] died, message: 'Nitwit died'
+[30Jan2026 19:50:46.918] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/63728, l='ServerLevel[world]', x=-1840.77, y=67.08, z=254.97] died, message: 'Cleric died'
+[30Jan2026 19:51:29.258] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/64006, l='ServerLevel[world]', x=-1849.62, y=69.56, z=188.98] died, message: 'Farmer died'
+[30Jan2026 19:51:31.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Sweet Dreams]
+[30Jan2026 19:51:32.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:51:52.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 19:52:02.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:52:25.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sweet Dreams]
+[30Jan2026 19:52:40.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:53:09.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Semi-Grade 2 Sorcerer]
+[30Jan2026 19:53:16.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:54:24.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Grade 4 Sorcerer]
+[30Jan2026 19:54:30.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:54:33.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Acquire Hardware]
+[30Jan2026 19:54:54.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:55:02.863] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/64050, l='ServerLevel[world]', x=-1794.50, y=63.00, z=222.50] died, message: 'Farmer died'
+[30Jan2026 19:55:04.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:55:20.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:55:51.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 19:57:19.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Cutie Honey]
+[30Jan2026 19:57:30.609] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/63802, l='ServerLevel[world]', x=-1840.50, y=68.00, z=187.50] died, message: 'Unemployed died'
+[30Jan2026 19:57:32.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 19:58:52.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Bomber]
+[30Jan2026 20:00:00.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died whilst trying to escape Moon Dregs
+[30Jan2026 20:00:34.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Reverse Cursed Technique Lv2]
+[30Jan2026 20:01:11.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:01:32.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:02:29.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:02:31.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:02:54.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died whilst trying to escape Moon Dregs
+[30Jan2026 20:02:56.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:04:10.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:05:24.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to uekee340: ya semi-2, que miedo
+[30Jan2026 20:05:31.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <uekee340> XD
+[30Jan2026 20:05:35.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <uekee340> se juan
+[30Jan2026 20:06:03.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to uekee340: dame 10 mins me uno
+[30Jan2026 20:10:39.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <uekee340> se juan
+[30Jan2026 20:10:42.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:11:48.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Reverse Cursed Technique Lv2]
+[30Jan2026 20:12:06.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:12:09.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:12:15.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:12:20.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:12:41.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Black Flash]
+[30Jan2026 20:12:41.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [High Speed]
+[30Jan2026 20:12:41.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Grade 2 Sorcerer]
+[30Jan2026 20:13:03.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Mastery Domain Expansion]
+[30Jan2026 20:13:38.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:14:20.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:14:42.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to uekee340: nojoa, como q dominio
+[30Jan2026 20:16:24.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:17:21.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has completed the challenge [Black Flash]
+[30Jan2026 20:17:25.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has reached the goal [Mastery Simple Domain]
+[30Jan2026 20:17:30.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Flowing Red Scale]
+[30Jan2026 20:17:30.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Grade 3 Sorcerer]
+[30Jan2026 20:18:00.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:18:13.666] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iJFC[/127.193.42.188:60443] logged in with entity id 97255 at (-2159.0999400527826, 84.73408469132191, -1.5180369844629364)
+[30Jan2026 20:18:13.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC joined the game
+[30Jan2026 20:18:13.677] [Server thread/INFO] [Jade/]: Syncing config to iJFC (b55d212c-8aed-37df-8391-d5c8da7babdb)
+[30Jan2026 20:18:25.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to king_by2002]
+[30Jan2026 20:18:49.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 20:18:58.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:19:14.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:19:41.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Mastery Domain Expansion]
+[30Jan2026 20:19:43.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:19:44.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:20:56.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died whilst trying to escape Moon Dregs
+[30Jan2026 20:21:42.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 20:21:48.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Grade 2 Sorcerer]
+[30Jan2026 20:21:51.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:22:31.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 was kicked for floating too long!
+[30Jan2026 20:22:31.465] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Flying is not enabled on this server
+[30Jan2026 20:22:31.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 20:23:00.114] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@581b7a7e[id=<null>,name=king_by2002,properties={},legacy=false] (/127.175.149.198:42905) lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 0/2 (ServerboundChangeDifficultyPacket) was larger than I expected, found 17 bytes extra whilst reading packet 2
+[30Jan2026 20:23:06.361] [ForkJoinPool.commonPool-worker-21/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 20:23:06.371] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:43015] logged in with entity id 104286 at (-1897.8309441492906, 75.82930405164726, 126.89706596214963)
+[30Jan2026 20:23:06.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 20:23:06.391] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 20:23:32.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 was kicked for floating too long!
+[30Jan2026 20:23:32.566] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Flying is not enabled on this server
+[30Jan2026 20:23:32.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 20:23:50.565] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /127.175.149.198:56521 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 0/0 (ServerboundAcceptTeleportationPacket) was larger than I expected, found 28 bytes extra whilst reading packet 0
+[30Jan2026 20:24:09.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Mastery Domain Amplification (WIP)]
+[30Jan2026 20:24:10.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:25:27.074] [ForkJoinPool.commonPool-worker-23/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 20:25:27.157] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:39221] logged in with entity id 107892 at (-1897.8309441492906, 75.82930405164726, 126.89706596214963)
+[30Jan2026 20:25:27.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 20:25:27.177] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 20:25:33.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported king_by2002 to iJFC]
+[30Jan2026 20:25:39.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported king_by2002 to uekee340]
+[30Jan2026 20:25:43.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -2-]
+[30Jan2026 20:25:58.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -1-]
+[30Jan2026 20:25:58.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 has made the advancement [Fame -1-]
+[30Jan2026 20:25:59.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:26:00.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 20:26:05.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:27:11.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 was kicked for floating too long!
+[30Jan2026 20:27:11.220] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Flying is not enabled on this server
+[30Jan2026 20:27:11.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 20:27:20.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:27:26.903] [ForkJoinPool.commonPool-worker-24/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 20:27:26.936] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:51743] logged in with entity id 111578 at (-1796.1451247167436, 65.45925825308167, 204.53982640484665)
+[30Jan2026 20:27:26.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 20:27:26.960] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 20:27:33.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 was kicked for floating too long!
+[30Jan2026 20:27:33.820] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Flying is not enabled on this server
+[30Jan2026 20:27:33.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 20:27:43.017] [ForkJoinPool.commonPool-worker-24/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:king_by2002'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 20:27:43.024] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: king_by2002[/127.175.149.198:41455] logged in with entity id 112022 at (-1796.1451247167436, 63.34970570634164, 204.53982640484665)
+[30Jan2026 20:27:43.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 joined the game
+[30Jan2026 20:27:43.044] [Server thread/INFO] [Jade/]: Syncing config to king_by2002 (2794b990-d76d-3e59-8014-374b2b82c1b7)
+[30Jan2026 20:29:29.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:29:39.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:29:39.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:29:42.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:29:52.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:29:54.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to king_by2002]
+[30Jan2026 20:30:03.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:30:11.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:30:15.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:30:31.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of uekee340
+[30Jan2026 20:30:32.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:30:34.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:30:41.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to king_by2002]
+[30Jan2026 20:30:45.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:31:04.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 20:31:14.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:32:12.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:32:21.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:32:23.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:32:25.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:32:26.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:32:29.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:32:31.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 20:32:37.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:32:58.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:34:07.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:34:19.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 died
+[30Jan2026 20:34:25.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:35:21.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Hipster]
+[30Jan2026 20:36:16.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:36:38.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Added uekee340 to team [Sorcerers]]
+[30Jan2026 20:36:44.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died because of Cursed Spirit Grade 1 (Neck Necklace)
+[30Jan2026 20:36:45.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Added iJFC to team [Sorcerers]]
+[30Jan2026 20:37:43.966] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: king_by2002 lost connection: Timed out
+[30Jan2026 20:37:43.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: king_by2002 left the game
+[30Jan2026 20:37:47.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Rogue Company]
+[30Jan2026 20:37:47.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Rogue Company]
+[30Jan2026 20:37:47.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved wrongly!
+[30Jan2026 20:38:09.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Disabled friendly fire for team [Sorcerers]]
+[30Jan2026 20:38:47.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:41:50.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:41:59.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:43:22.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:44:14.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 20:44:21.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:45:35.191] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element jujutsucraft:village_heisei took 164 ms
+[30Jan2026 20:45:40.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to -4831.500000, 76.000000, -1327.500000]
+[30Jan2026 20:45:40.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:45:41.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Spectator Mode]
+[30Jan2026 20:45:42.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Mastery Domain Amplification (WIP)]
+[30Jan2026 20:45:44.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:45:49.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported uekee340 to iJFC]
+[30Jan2026 20:46:31.064] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Weaponsmith'/140847, l='ServerLevel[world]', x=-4887.07, y=78.00, z=-1239.01] died, message: 'Weaponsmith died'
+[30Jan2026 20:46:31.115] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/140848, l='ServerLevel[world]', x=-4869.71, y=78.00, z=-1232.71] died, message: 'Unemployed died'
+[30Jan2026 20:46:45.871] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/140676, l='ServerLevel[world]', x=-4873.96, y=80.55, z=-1251.63] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 20:46:51.814] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/142329, l='ServerLevel[world]', x=-4599.50, y=107.00, z=-1188.50] died, message: 'Jujutsu Sorcerer suffocated in a wall'
+[30Jan2026 20:47:00.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/140742, l='ServerLevel[world]', x=-4896.60, y=78.00, z=-1231.49] died, message: 'Shepherd died'
+[30Jan2026 20:47:14.517] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/140743, l='ServerLevel[world]', x=-4916.66, y=78.00, z=-1271.47] died, message: 'Unemployed died'
+[30Jan2026 20:47:34.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:47:37.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:47:42.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:47:46.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:48:05.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 20:48:23.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Fame -Special-]
+[30Jan2026 20:48:23.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -3-]
+[30Jan2026 20:48:23.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Semi-Grade 1 Sorcerer]
+[30Jan2026 20:48:25.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:49:02.411] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/140788, l='ServerLevel[world]', x=-4874.41, y=78.00, z=-1379.95] died, message: 'Unemployed died'
+[30Jan2026 20:49:02.412] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/140507, l='ServerLevel[world]', x=-4873.50, y=78.00, z=-1382.30] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 20:49:26.762] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/140778, l='ServerLevel[world]', x=-4850.52, y=78.00, z=-1406.49] died, message: 'Leatherworker died'
+[30Jan2026 20:49:27.264] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/140506, l='ServerLevel[world]', x=-4851.59, y=78.00, z=-1407.26] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 20:49:28.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [The Tiger of Minecraft]
+[30Jan2026 20:49:28.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [The Tiger of Minecraft]
+[30Jan2026 20:49:28.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:49:29.814] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/140071, l='ServerLevel[world]', x=-4788.50, y=78.00, z=-1364.50] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 20:50:40.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Dhruv Lakdawalla]
+[30Jan2026 20:50:48.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Panda]
+[30Jan2026 20:50:48.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Panda]
+[30Jan2026 20:51:34.261] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/140779, l='ServerLevel[world]', x=-4847.99, y=78.00, z=-1411.38] died, message: 'Leatherworker was slain by Cursed Spirit Grade 3'
+[30Jan2026 20:53:00.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Witch]
+[30Jan2026 20:54:34.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:54:38.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:55:08.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:55:13.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:55:14.634] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! 17.079598974085457,-0.6616605278502021,21.57562758976883
+[30Jan2026 20:55:22.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:55:25.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:55:35.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved wrongly!
+[30Jan2026 20:55:39.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Fame -Special-]
+[30Jan2026 20:55:39.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Subjugation Mission -Earth-]
+[30Jan2026 20:55:39.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Subjugation Mission -Earth-]
+[30Jan2026 20:56:10.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 20:56:11.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 20:56:28.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:56:32.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 20:56:37.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:56:43.315] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/140537, l='ServerLevel[world]', x=-4903.98, y=78.00, z=-1245.51] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 20:56:49.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 20:56:50.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 20:57:05.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 20:57:42.097] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/155294, l='ServerLevel[world]', x=-4813.92, y=82.00, z=-1358.55] died, message: 'Fisherman died'
+[30Jan2026 20:57:42.099] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/155296, l='ServerLevel[world]', x=-4817.50, y=81.59, z=-1357.50] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 20:57:42.100] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/155297, l='ServerLevel[world]', x=-4816.50, y=80.00, z=-1357.50] died, message: 'Leatherworker died'
+[30Jan2026 20:57:42.100] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/155298, l='ServerLevel[world]', x=-4817.55, y=81.59, z=-1356.02] died, message: 'Leatherworker died'
+[30Jan2026 20:57:42.103] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/155715, l='ServerLevel[world]', x=-4955.50, y=86.00, z=-1356.44] died, message: 'Leatherworker died'
+[30Jan2026 20:57:42.105] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/155600, l='ServerLevel[world]', x=-4858.65, y=78.00, z=-1400.50] died, message: 'Unemployed died'
+[30Jan2026 20:57:43.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Postmortal]
+[30Jan2026 20:57:43.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:00:09.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of kou GUY
+[30Jan2026 21:01:04.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Applied effect Night Vision to iJFC]
+[30Jan2026 21:02:17.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved wrongly!
+[30Jan2026 21:02:19.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:03:33.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 21:03:51.559] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168628, l='ServerLevel[world]', x=-4557.50, y=100.00, z=-1188.50] died, message: 'Jujutsu Sorcerer suffocated in a wall'
+[30Jan2026 21:03:53.461] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168673, l='ServerLevel[world]', x=-4532.50, y=101.00, z=-1163.50] died, message: 'Jujutsu Sorcerer suffocated in a wall'
+[30Jan2026 21:03:58.509] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/168678, l='ServerLevel[world]', x=-4570.51, y=112.00, z=-1129.50] died, message: 'Butcher died'
+[30Jan2026 21:04:01.365] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168930, l='ServerLevel[world]', x=-4467.50, y=64.00, z=-1099.50] died, message: 'Unemployed hit the ground too hard'
+[30Jan2026 21:04:16.668] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168577, l='ServerLevel[world]', x=-4566.64, y=106.61, z=-1112.30] died, message: 'Jujutsu Sorcerer was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:04:16.768] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/168679, l='ServerLevel[world]', x=-4570.30, y=107.60, z=-1114.81] died, message: 'Farmer was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:04:16.875] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/168588, l='ServerLevel[world]', x=-4569.30, y=107.41, z=-1116.02] died, message: 'Farmer was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:04:17.011] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168485, l='ServerLevel[world]', x=-4569.30, y=106.27, z=-1112.17] died, message: 'Jujutsu Sorcerer was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:04:17.076] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168581, l='ServerLevel[world]', x=-4570.64, y=104.00, z=-1113.03] died, message: 'Unemployed was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:04:17.509] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168626, l='ServerLevel[world]', x=-4564.46, y=111.69, z=-1118.30] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:04:18.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:04:32.066] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/168636, l='ServerLevel[world]', x=-4576.82, y=111.00, z=-1170.45] died, message: 'Fisherman was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:04:32.117] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168635, l='ServerLevel[world]', x=-4572.06, y=113.51, z=-1170.89] died, message: 'Unemployed was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:04:32.260] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168534, l='ServerLevel[world]', x=-4569.70, y=112.22, z=-1162.14] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:04:33.011] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/168709, l='ServerLevel[world]', x=-4575.63, y=111.81, z=-1167.50] died, message: 'Fisherman died'
+[30Jan2026 21:04:33.916] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/168712, l='ServerLevel[world]', x=-4574.24, y=109.05, z=-1172.57] died, message: 'Fisherman was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:05:00.364] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168483, l='ServerLevel[world]', x=-4569.50, y=108.00, z=-1177.85] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:05:02.860] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168629, l='ServerLevel[world]', x=-4520.16, y=107.00, z=-1147.49] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:05:02.861] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168674, l='ServerLevel[world]', x=-4519.30, y=107.00, z=-1147.49] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:05:06.161] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168627, l='ServerLevel[world]', x=-4511.65, y=102.50, z=-1094.38] died, message: 'Jujutsu Sorcerer was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:05:06.260] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168727, l='ServerLevel[world]', x=-4504.90, y=97.05, z=-1090.70] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:05:08.165] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/168939, l='ServerLevel[world]', x=-4512.84, y=103.10, z=-1097.10] died, message: 'Butcher was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:05:24.209] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168580, l='ServerLevel[world]', x=-4602.48, y=119.00, z=-1133.44] died, message: 'Unemployed died'
+[30Jan2026 21:05:29.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Set the time to 13000]
+[30Jan2026 21:05:32.365] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168536, l='ServerLevel[world]', x=-4520.50, y=98.50, z=-1209.70] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:05:34.114] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/168747, l='ServerLevel[world]', x=-4519.53, y=99.00, z=-1197.13] died, message: 'Butcher died'
+[30Jan2026 21:05:36.847] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168535, l='ServerLevel[world]', x=-4565.50, y=113.00, z=-1150.49] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:05:37.367] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/168732, l='ServerLevel[world]', x=-4518.49, y=104.00, z=-1107.52] died, message: 'Shepherd died'
+[30Jan2026 21:05:44.724] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/168706, l='ServerLevel[world]', x=-4518.55, y=101.87, z=-1104.11] died, message: 'Fisherman was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:05:53.860] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168589, l='ServerLevel[world]', x=-4585.45, y=110.50, z=-1118.50] died, message: 'Unemployed died'
+[30Jan2026 21:05:56.262] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/167818, l='ServerLevel[world]', x=-4581.46, y=106.00, z=-1108.51] died, message: 'Farmer died'
+[30Jan2026 21:06:07.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Summoned new Sukuna]
+[30Jan2026 21:06:11.663] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/168940, l='ServerLevel[world]', x=-4510.44, y=106.50, z=-1127.90] died, message: 'Fisherman died'
+[30Jan2026 21:06:16.410] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168535, l='ServerLevel[world]', x=-4565.30, y=113.00, z=-1150.49] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:06:30.811] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168576, l='ServerLevel[world]', x=-4513.34, y=85.00, z=-1060.29] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:06:44.862] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/168707, l='ServerLevel[world]', x=-4526.53, y=93.65, z=-1097.06] died, message: 'Fisherman died'
+[30Jan2026 21:06:57.015] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168676, l='ServerLevel[world]', x=-4529.23, y=93.00, z=-1087.92] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:07:09.663] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168675, l='ServerLevel[world]', x=-4505.20, y=94.10, z=-1093.70] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:07:09.715] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168985, l='ServerLevel[world]', x=-4501.37, y=93.83, z=-1094.48] died, message: 'Unemployed died'
+[30Jan2026 21:07:18.463] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168729, l='ServerLevel[world]', x=-4503.47, y=93.00, z=-1085.02] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:07:29.421] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168728, l='ServerLevel[world]', x=-4502.79, y=86.90, z=-1080.09] died, message: 'Jujutsu Sorcerer was killed by uekee340 using [Cursed Technique Lapse: Blue]'
+[30Jan2026 21:07:53.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:07:56.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:08:07.216] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/167606, l='ServerLevel[world]', x=-4636.49, y=92.42, z=-1045.30] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.217] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/167811, l='ServerLevel[world]', x=-4653.50, y=78.00, z=-1016.50] died, message: 'Mason died'
+[30Jan2026 21:08:07.219] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/167843, l='ServerLevel[world]', x=-4631.80, y=96.00, z=-1064.51] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.219] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/167844, l='ServerLevel[world]', x=-4634.58, y=95.18, z=-1065.80] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.221] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/167817, l='ServerLevel[world]', x=-4651.39, y=91.00, z=-1062.51] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.224] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/173638, l='ServerLevel[world]', x=-4689.51, y=85.00, z=-1040.55] died, message: 'Cleric died'
+[30Jan2026 21:08:07.226] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168671, l='ServerLevel[world]', x=-4470.63, y=67.00, z=-1216.32] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:08:07.226] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168958, l='ServerLevel[world]', x=-4496.30, y=82.00, z=-1199.51] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.227] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168986, l='ServerLevel[world]', x=-4476.76, y=62.51, z=-1128.75] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.227] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/169125, l='ServerLevel[world]', x=-4484.00, y=68.00, z=-1128.49] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.228] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168733, l='ServerLevel[world]', x=-4477.50, y=74.00, z=-1226.11] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:08:07.229] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168821, l='ServerLevel[world]', x=-4475.70, y=63.36, z=-1099.71] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:08:07.229] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/169124, l='ServerLevel[world]', x=-4475.50, y=65.00, z=-1094.46] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.231] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/172206, l='ServerLevel[world]', x=-4604.32, y=113.00, z=-1194.49] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.232] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jujutsu Sorcerer'/168535, l='ServerLevel[world]', x=-4557.71, y=109.00, z=-1142.71] died, message: 'Jujutsu Sorcerer died'
+[30Jan2026 21:08:07.233] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/172207, l='ServerLevel[world]', x=-4589.71, y=111.00, z=-1222.77] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.236] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168639, l='ServerLevel[world]', x=-4552.46, y=103.00, z=-1199.22] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.237] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168746, l='ServerLevel[world]', x=-4539.51, y=104.00, z=-1155.56] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.238] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168713, l='ServerLevel[world]', x=-4540.48, y=103.00, z=-1195.12] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.238] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168710, l='ServerLevel[world]', x=-4532.48, y=108.00, z=-1137.15] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.239] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168638, l='ServerLevel[world]', x=-4554.34, y=100.00, z=-1213.59] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.239] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168944, l='ServerLevel[world]', x=-4527.52, y=101.00, z=-1167.48] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.240] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168731, l='ServerLevel[world]', x=-4522.48, y=106.00, z=-1133.50] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.240] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/168741, l='ServerLevel[world]', x=-4540.48, y=99.00, z=-1216.52] died, message: 'Farmer died'
+[30Jan2026 21:08:07.241] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168943, l='ServerLevel[world]', x=-4512.71, y=101.17, z=-1156.40] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.242] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168957, l='ServerLevel[world]', x=-4520.55, y=98.77, z=-1216.02] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.243] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/168742, l='ServerLevel[world]', x=-4519.85, y=99.00, z=-1216.07] died, message: 'Unemployed died'
+[30Jan2026 21:08:07.244] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/167604, l='ServerLevel[world]', x=-4647.46, y=92.00, z=-1070.82] died, message: 'Toolsmith died'
+[30Jan2026 21:08:08.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:08:09.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:08:16.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 21:08:21.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:08:22.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:08:27.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 21:09:07.413] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/174760, l='ServerLevel[world]', x=-4682.50, y=71.00, z=-981.50] died, message: 'Cleric died'
+[30Jan2026 21:09:39.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -3-]
+[30Jan2026 21:09:40.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Semi-Grade 1 Sorcerer]
+[30Jan2026 21:09:52.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:09:54.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 21:11:16.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 21:11:33.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Hollow Technique: Purple]
+[30Jan2026 21:11:33.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Cursed Technique Reversal: Red]
+[30Jan2026 21:11:33.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Strike Strengthening]
+[30Jan2026 21:11:33.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Grade 1 Sorcerer]
+[30Jan2026 21:11:37.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died because of Cursed Spirit Grade 1 (Teketeke)
+[30Jan2026 21:11:45.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 21:12:15.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -7-]
+[30Jan2026 21:12:15.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -7-]
+[30Jan2026 21:12:28.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:12:46.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Rika's Control]
+[30Jan2026 21:12:46.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Copy]
+[30Jan2026 21:12:52.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:14:57.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:14:58.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Hanger Rack]
+[30Jan2026 21:15:00.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 21:15:14.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -16-]
+[30Jan2026 21:15:14.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -16-]
+[30Jan2026 21:15:47.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Enabled friendly fire for team [Sorcerers]]
+[30Jan2026 21:17:29.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:17:37.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 21:18:55.397] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC moved too quickly! 22.115798432737392,1.4409260723009112,-16.736746077144744
+[30Jan2026 21:19:07.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Stone Age]
+[30Jan2026 21:19:31.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 was killed by iJFC using [uekee340's Cursed Technique (Cost: 1000)]
+[30Jan2026 21:20:07.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:20:24.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Gave 1 [Cursed Technique Changer] to uekee340]
+[30Jan2026 21:20:50.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:21:02.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Instant Spirit Body of Distorted Killing]
+[30Jan2026 21:21:02.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Polymorphic Soul Isomer]
+[30Jan2026 21:21:02.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Soul Multiplicity]
+[30Jan2026 21:21:02.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Idle Transfiguration]
+[30Jan2026 21:21:02.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Observation of the Soul]
+[30Jan2026 21:21:05.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:21:28.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Teleported uekee340 to iJFC]
+[30Jan2026 21:22:28.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:22:32.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:22:35.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:22:56.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Lava Waves]
+[30Jan2026 21:22:56.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Flame Laser]
+[30Jan2026 21:22:56.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Disaster Flames]
+[30Jan2026 21:22:56.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Flame Cursed Technique]
+[30Jan2026 21:23:13.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 21:23:35.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:23:38.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:24:18.563] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 moved wrongly!
+[30Jan2026 21:24:33.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:24:35.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:26:19.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:26:25.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:26:30.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:26:47.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Open]
+[30Jan2026 21:26:47.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Cleave]
+[30Jan2026 21:26:47.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Dismantle]
+[30Jan2026 21:26:47.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Malevolent Shrine]
+[30Jan2026 21:27:02.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 21:27:09.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:27:13.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:27:22.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Cursed Spirit -6-]
+[30Jan2026 21:27:22.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -6-]
+[30Jan2026 21:27:36.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:27:48.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 moved wrongly!
+[30Jan2026 21:27:52.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Open Barrier Type Domain]
+[30Jan2026 21:27:53.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Anti-Open Barrier Type Domain]
+[30Jan2026 21:27:56.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:27:59.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:28:13.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Cutie Honey]
+[30Jan2026 21:28:22.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Cursed Spirit -9-]
+[30Jan2026 21:28:24.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Mahoraga Spawner]
+[30Jan2026 21:28:27.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Demon God]
+[30Jan2026 21:28:31.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC died
+[30Jan2026 21:28:37.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Set own game mode to Creative Mode]
+[30Jan2026 21:28:44.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:28:47.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:29:14.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:29:18.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:29:18.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Grade 1 Sorcerer]
+[30Jan2026 21:29:19.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Special Grade Sorcerer]
+[30Jan2026 21:29:20.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:29:39.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Teleported iJFC to uekee340]
+[30Jan2026 21:29:42.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:30:14.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 moved too quickly! 25.6502511478632,-5.032121803587572,-27.765581870068882
+[30Jan2026 21:30:19.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Death Swarm]
+[30Jan2026 21:30:19.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Bathynomus Giganteus]
+[30Jan2026 21:30:19.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Dagon's Cursed Technique]
+[30Jan2026 21:30:41.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 was killed
+[30Jan2026 21:30:41.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Killed uekee340]
+[30Jan2026 21:30:42.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 moved too quickly! 25.37801044919557,-6.0,-27.765581870068882
+[30Jan2026 21:30:52.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Set own game mode to Survival Mode]
+[30Jan2026 21:32:02.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:32:08.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Set own game mode to Creative Mode]
+[30Jan2026 21:32:19.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Special Grade Sorcerer]
+[30Jan2026 21:33:02.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 1292 block(s)]
+[30Jan2026 21:33:35.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Maximum: Meteor]
+[30Jan2026 21:33:35.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Lava Waves]
+[30Jan2026 21:33:35.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Flame Laser]
+[30Jan2026 21:33:35.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Disaster Flames]
+[30Jan2026 21:33:35.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Flame Cursed Technique]
+[30Jan2026 21:33:41.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 1332 block(s)]
+[30Jan2026 21:34:42.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 1173 block(s)]
+[30Jan2026 21:35:03.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Successfully filled 1548 block(s)]
+[30Jan2026 21:35:10.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 791 block(s)]
+[30Jan2026 21:35:19.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Open]
+[30Jan2026 21:35:19.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Cleave]
+[30Jan2026 21:35:19.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Dismantle]
+[30Jan2026 21:35:19.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Malevolent Shrine]
+[30Jan2026 21:35:47.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 608 block(s)]
+[30Jan2026 21:36:26.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Open Barrier Type Domain]
+[30Jan2026 21:36:40.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 1921 block(s)]
+[30Jan2026 21:37:03.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 612 block(s)]
+[30Jan2026 21:39:02.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:39:22.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Creative Mode]
+[30Jan2026 21:39:30.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -1-]
+[30Jan2026 21:39:30.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Observation of the Soul]
+[30Jan2026 21:39:31.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -2-]
+[30Jan2026 21:39:32.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -3-]
+[30Jan2026 21:39:33.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -4-]
+[30Jan2026 21:39:34.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -1-]
+[30Jan2026 21:39:34.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -5-]
+[30Jan2026 21:39:35.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -2-]
+[30Jan2026 21:39:35.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -6-]
+[30Jan2026 21:39:36.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -3-]
+[30Jan2026 21:39:36.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -7-]
+[30Jan2026 21:39:36.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -4-]
+[30Jan2026 21:39:37.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -8-]
+[30Jan2026 21:39:37.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -5-]
+[30Jan2026 21:39:38.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -9-]
+[30Jan2026 21:39:38.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -6-]
+[30Jan2026 21:39:39.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has reached the goal [Sukuna Finger -10-]
+[30Jan2026 21:39:39.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -7-]
+[30Jan2026 21:39:40.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -11-]
+[30Jan2026 21:39:40.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -8-]
+[30Jan2026 21:39:41.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -12-]
+[30Jan2026 21:39:41.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -9-]
+[30Jan2026 21:39:42.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -13-]
+[30Jan2026 21:39:42.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Sukuna Finger -10-]
+[30Jan2026 21:39:42.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -14-]
+[30Jan2026 21:39:43.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -11-]
+[30Jan2026 21:39:43.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -15-]
+[30Jan2026 21:39:44.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -12-]
+[30Jan2026 21:39:44.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -16-]
+[30Jan2026 21:39:45.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -13-]
+[30Jan2026 21:39:45.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -17-]
+[30Jan2026 21:39:46.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -14-]
+[30Jan2026 21:39:46.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -18-]
+[30Jan2026 21:39:47.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -15-]
+[30Jan2026 21:39:47.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has made the advancement [Sukuna Finger -19-]
+[30Jan2026 21:39:48.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -16-]
+[30Jan2026 21:39:48.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Sukuna Finger -20-]
+[30Jan2026 21:39:48.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -17-]
+[30Jan2026 21:39:49.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -18-]
+[30Jan2026 21:39:50.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has made the advancement [Sukuna Finger -19-]
+[30Jan2026 21:39:51.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Sukuna Finger -20-]
+[30Jan2026 21:39:56.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC has completed the challenge [Six Eyes]
+[30Jan2026 21:40:16.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has completed the challenge [Six Eyes]
+[30Jan2026 21:40:19.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 has reached the goal [Mastery Falling Blossom Emotion]
+[30Jan2026 21:43:45.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Successfully filled 12993 block(s)]
+[30Jan2026 21:44:10.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Applied effect Strength to iJFC]
+[30Jan2026 21:44:19.813] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SukunaEntity['Sukuna 20 fingers'/211479, l='ServerLevel[world]', x=23.70, y=109.00, z=94.47] died: Sukuna 20 fingers died
+[30Jan2026 21:44:26.663] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 lost connection: Disconnected
+[30Jan2026 21:44:26.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 left the game
+[30Jan2026 21:44:32.221] [ForkJoinPool.commonPool-worker-27/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:uekee340'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md0f5a66$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[30Jan2026 21:44:32.270] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: uekee340[/127.33.25.10:45395] logged in with entity id 216771 at (12.880383005175636, 113.46321762422913, 85.63326579541409)
+[30Jan2026 21:44:32.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 joined the game
+[30Jan2026 21:44:32.300] [Server thread/INFO] [Jade/]: Syncing config to uekee340 (0bc62d06-0901-38a9-b1d6-aefe5bf603a6)
+[30Jan2026 21:44:39.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Removed 2 member(s) from team [Sorcerers]]
+[30Jan2026 21:44:43.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iJFC: Set own game mode to Survival Mode]
+[30Jan2026 21:45:09.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [uekee340: Set own game mode to Survival Mode]
+[30Jan2026 21:46:48.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 died
+[30Jan2026 21:46:51.812] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: uekee340 lost connection: Disconnected
+[30Jan2026 21:46:51.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uekee340 left the game
+[30Jan2026 21:46:57.411] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iJFC lost connection: Disconnected
+[30Jan2026 21:46:57.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iJFC left the game
